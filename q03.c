@@ -1,5 +1,3 @@
-#include <stdlib.h>
-
 int *three_numbers()
 {
     int n[3] = { 0, 1, 2 };
