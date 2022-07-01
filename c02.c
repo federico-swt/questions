@@ -2,8 +2,9 @@
 
 int main()
 {
-    float *v = (float*)malloc(1000);
+    int *v = (int*)malloc(1000);
 
+    // array initialization
     for (int i = 0; i < 1000; i++)
     {
         v[i] = i;

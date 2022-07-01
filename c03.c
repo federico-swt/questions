@@ -1,12 +1,12 @@
-int *three_numbers()
+float *three_numbers()
 {
-    int n[3] = { 0, 1, 2 };
+    float n[3] = { 0.1, 2.3, 4.5 };
     return n;
 }
 
 int main()
 {
-    int *p = three_numbers();
+    float *p = three_numbers();
 
     printf("%i\n", p[0]);
     printf("%i\n", p[1]);
