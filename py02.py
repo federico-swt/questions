@@ -1,13 +1,19 @@
 import sys
 
+# def critical():
+#     if ...:
+#         raise Exception
+#     else:
+#         ...
+
 def f():
-    critical_op() # can raise Exception
+    critical()
 
 def g():
-    critical_op() # can raise Exception
+    critical()
 
 def main():
-    critical_op() # can raise Exception
+    critical()
     f()
     g()
     
