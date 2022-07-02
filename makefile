@@ -1,4 +1,4 @@
-all: install # default
+all: install
 
 install: prepare configure
 
